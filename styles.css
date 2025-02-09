@@ -1,0 +1,128 @@
+/* styles.css */
+body {
+    Font-family: sans-serif;
+    Margin: 0;
+    Padding: 0;
+    Background:url('./img/ai-generated-an-aesthetic-studio-coffee-shop-interior-featuring-a-coffee-cup-and-plant-free-photo.jpg') no-repeat center center/cover;
+}
+
+.header {
+    Background-color: #6f4e37;
+    Color: #ffffffdc;
+    Padding: 20px;
+    Text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    Font-size: 2.5em;
+
+}
+
+.header .btn .logout{
+    position: relative;
+    left: 0px;
+    top: 0;
+    background: linear-gradient(to right,#543d2fc6,#6f4e37bf,#e6c49abd);
+    padding: 15px 35px;
+    color: #e6c49a;
+    /* margin-left: 800px;
+    margin-top: 0px; */
+    align-items: center;
+}
+.nav {
+    Background-color: #36241e;
+    Padding: 15px;
+    Text-align: center;
+}
+
+.nav ul {
+    List-style: none;
+    Padding: 0;
+}
+
+.nav ul li {
+    Display: inline;
+    Margin: 0 10px;
+}
+
+.nav ul li a {
+    font-size: 20px;
+    Color: #fff;
+    Text-decoration: none;
+}
+.nav ul li a:hover{
+    padding: 15px;
+    border: rgb(215, 191, 191);
+    border-radius: 10px;
+    background-color:#e6c49a;
+    box-shadow:rgba(0, 0, 0, 0.1);
+}
+.content {
+    Padding: 20px;
+    Max-width: 1200px;
+    Margin: 0 auto;
+}
+.home .content h2{
+    text-transform: capitalize;
+}
+
+.loyalty, .quick-order, .recommendations, .events {
+    Background-color: #ffffff6a;
+    Padding: 20px;
+    Margin-bottom: 20px;
+    Border-radius: 8px;
+    Box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+}
+
+h2 {
+    Color: #6f4e37;
+}
+
+.recommendation-list {
+    Display: flex;
+    Gap: 15px;
+}
+
+.item {
+    Flex: 1;
+    background: linear-gradient(to right,#543d2fc6,#6f4e37bf,#e6c49abd);
+    Padding: 15px;
+    Border-radius: 8px;
+    Text-align: center;
+    transition: transform 0.3s ease;
+}
+.item:hover{
+    transform: translateY(-5px);
+
+}
+
+button {
+    Background-color: #6f4e37;
+    Color: white;
+    Padding: 10px 20px;
+    Border: none;
+    Border-radius: 5px;
+    Cursor: pointer;
+    Font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    Background-color: #543d2f;
+    transform: translateY(-2px);
+}
+
+.footer {
+    Background-color: #362c1e;
+    Color: #fff;
+    Padding: 10px;
+    Text-align: center;
+}
+
+.footer a {
+    Color: #fff;
+    Text-decoration: underline;
+}
+

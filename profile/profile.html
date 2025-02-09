@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="prof.css">
+</head>
+<body>
+    <!-- Navigation Section -->
+    <nav class="dashboard-nav">
+        <div class="nav-logo">CoffeeClub</div>
+        <ul class="nav-links">
+            <li><a href="/re.html">Home</a></li>
+            <li><a href="/history.html">Order History</a></li>
+            <li><a href="/premium/premium.html">Exclusive Offers</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a class="logout" onclick="logout()" href="/index.html">Logout</a></li>
+        </ul>
+    </nav>
+
+    
+    <section class="dashboard-profile">
+        <!-- Profile Overview Section -->
+        <div class="profile-overview">
+            <div class="profile-picture">
+                <img src="/img/man1.png" alt="Profile Picture">
+            </div>
+            <div class="profile-info">
+                <h2 class="username">Sahil Deo</h2>
+                <p class="user-role">Gold Member</p>
+                <p class="points">Points: 200</p>
+                <button class="edit-profile-btn">Edit Profile</button>
+            </div>
+        </div>
+    
+        <!-- Stats Section -->
+        <div class="stats-section">
+            <div class="stat-box">
+                <h3>Orders</h3>
+                <p>52</p>
+            </div>
+            <div class="stat-box">
+                <h3>Followers</h3>
+                <p>5,200</p>
+            </div>
+            <div class="stat-box">
+                <h3>Membership Since</h3>
+                <p>2021</p>
+            </div>
+            <div class="stat-box">
+                <h3>Next Reward</h3>
+                <p>Free Coffee</p>
+            </div>
+        </div>
+    
+        <!-- Order History Section -->
+        <div class="order-history">
+            <h2>Order History</h2>
+            <ul>
+                <li><strong>Espresso</strong> - RS 100 - <span class="date">Oct 25, 2024</span></li>
+                <li><strong>Latte</strong> - RS 150 - <span class="date">Oct 20, 2024</span></li>
+                <li><strong>Cappuccino</strong> - RS  - <span class="date">Oct 15, 2024</span></li>
+            </ul>
+            <button class="view-more-btn">View More</button>
+        </div>
+    
+        <!-- Exclusive Offers Section -->
+        <div class="exclusive-offers">
+            <h2>Exclusive Offers</h2>
+            <div class="offer-list">
+                <div class="offer">
+                    <h3>10% off all Lattes</h3>
+                    <p>Valid until Nov 30, 2024</p>
+                </div>
+                <div class="offer">
+                    <h3>Free Coffee on Birthday</h3>
+                    <p>Claim anytime on your birthday month</p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Recent Activities Section -->
+        <div class="recent-activities">
+            <h2>Recent Activities</h2>
+            <ul>
+                <li>Joined Premium Membership - Oct 2024</li>
+                <li>Redeemed Points for Free Coffee - Sep 2024</li>
+                <li>Followed "Coffee Lovers" Club - Aug 2024</li>
+            </ul>
+        </div>
+    
+        <!-- Settings and Support Links -->
+        <div class="dashboard-links">
+            <div class="link-box">Account Settings</div>
+            <div class="link-box">Help & Support</div>
+            <div class="link-box">Refer a Friend</div>
+        </div>
+    </section>
+    <script src="prof.js"></script> 
+</body>
+</html>

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="img\coffeescript-dark_.png" alt="" width="30">Signature Sips
+        </a>
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="nav-icons">
+            <div id="search-btn"><img src="./css/png/512/ios7-search-strong-whites.png" alt="" width="50"></div>
+            <div id="cart-btn"><img src="css/png/512/ios7-cart - Copy.png"alt=""width="50"></div>
+            <div id="nav-btn"><img src="./css/png/512/navicon - white.png" alt="" width="50" ></div>
+        </div>
+
+        <!-- <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box"></label>
+
+        </div> --> -->
+
+        <!-- <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span> 
+                <img src="./img/coffee-cup-at-restaurant-harigarh-udiapur.jpg"alt="">
+                <div class="content">
+                    <h3>cart items 01</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span> 
+                <img src="./img/1_1Mu_zZxaOJV8MrmYj-g10Q.jpg"alt="">
+                <div class="content">
+                    <h3>cart items 02</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span> 
+                <img src="./img/1db6552291cf8295fc751a220373d5e10a4eec37_high.webp"alt="">
+                <div class="content">
+                    <h3>cart items 03</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span> 
+                <img src="./img/3064155.png"alt="">
+                <div class="content">
+                    <h3>cart items 04</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span> 
+                <img src="./img/ai-generated-an-aesthetic-studio-coffee-shop-interior-featuring-a-coffee-cup-and-plant-free-photo.jpg"alt=""width="40">
+                <div class="content">
+                    <h3>cart items 05</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+        </div>
+ -->
+
+    </header>
+    <section class="home" id="home">
+    <div class="content">
+        <h2>where every sip is made with care, and every visit feels like home  </h2>
+        <!-- <p>The rich aroma, the warmth in your hands, the first sip of something familiar yet extraordinary. This is coffee made to be savored.</p> -->
+        <a href="#">GET started</a>
+    </div>
+    <div class="wrapper-login">
+        <h2>Member Login</h2>
+        <form>
+            <div class="input-box">
+                <span class="icon"><img src="css\mail.png" alt="" width="20"></span>
+                <input id="email" type="email" required>
+                <label>Enter your email</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><img src="css\lock.png" alt="" width="20"></span>
+                <input  id="password" type="password" required>
+                <label>Enter your password</label>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">Remember me</label>
+                <a href="#">Forgot Password?</a>
+            </div>
+            
+            <button type="submit" class="btn" onclick="func()"> Login</button>
+        
+            <div class="register-link">
+                <p>Not a Member? <a href="#">Sign-Up now</a></p>
+            </div>
+        </form>
+    </div>
+    </section>
+    <!-- about secto starts -->
+    <section class="about" id="about">
+        <h1 class="heading"><span>About</span>-US</h1>
+
+        <div class="row">
+
+            <div class="image">
+
+                <img src="./css/bck2.jpg" alt="">
+            </div>
+        
+            <div class="content">
+                <h3>What makes our coffee special?</h3>
+                <p> Welcome to Signature Sips, where every drink and snack is a journey through India's rich and diverse flavors! At Signature Sips, we take pride in offering a one-of-a-kind experience with signature beverages from different states across India, each carefully crafted to reflect the unique tastes and traditions of its region.
+                    </p>
+                <!-- <p>In addition to our exceptional coffee, we offer a selection of traditional French pastries and light fare, each made with time-honored recipes and high-quality ingredients. From flaky croissants to decadent éclairs, every item is crafted to transport you straight to the charming streets of Paris. -->
+                    
+                    <!-- At BITE&BEANS, we invite you to savor the authenticity of French coffee culture in a warm and inviting atmosphere. Join us and experience the passion, tradition, and flavors that make our café a true gem. .</p> -->
+                <!-- <a href="" class="btn">learn more</a> -->
+            </div>
+
+        </div>
+    </section>
+
+   <!-----menu section starts ----->
+   <section class="menu" id="menu">
+    <h1 class="heading">Our<span>Menu</span></h1>
+
+    <div class="box-container">
+
+       <div class="box">
+             <img src="./img/70d6122e-9599-474d-9466-f6a16f9e4b2b.jpg"alt="">
+             <h3>Cappuccino</h3>
+             <div class="price">Rs 300<span>Rs 350</span></div>
+             <a href="#"class="btn">add to cart</a>
+       </div>
+
+       <div class="box">
+             <img src="./img/cold brew.jpg"alt="">
+             <h3>Cold-Brew</h3>
+             <div class="price">Rs 200<span>Rs 300</span></div>
+             <a href="#"class="btn">add to cart</a>
+       </div>
+
+       <div class="box">
+            <img src="./img/croissant.jpg"alt="">
+            <h3>croissants</h3>
+            <div class="price">Rs 100<span>Rs 150</span></div>
+            <a href="#"class="btn">add to cart</a>
+       </div>
+
+       <div class="box">
+            <img src="./img/hot choco.jpg"alt="">
+            <h3>Hot Choclate</h3>
+            <div class="price">Rs 200<span>Rs 250</span></div>
+            <a href="#"class="btn">add to cart</a>
+       </div>
+
+       <div class="box">
+           <img src="./img/Refreshing Iced Coffee Recipes.jpg"alt="">
+           <h3>Iced Coffee</h3>
+           <div class="price">Rs 300<span>Rs 400</span></div>
+           <a href="#"class="btn">add to cart</a>
+      </div>
+
+      <div class="box">
+            <img src="./img/220526165638-03-classic-french-dishes-tarte-tatin.webp"alt="">
+            <h3>Cheese Tarte</h3>
+            <div class="price">Rs 250<span>Rs 300</span></div>
+            <a href="#"class="btn">add to cart</a>
+        </div>
+
+        
+       <div class="box">
+             <img src="./img/220526165503-02-classic-french-dishes-bouillabaisse.webp"alt="">
+             <h3>Bouillabaisse</h3>
+             <div class="price">Rs 250<span>Rs 300</span></div>
+             <a href="#"class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./img/Spaghetti Bolognese.jpg"alt="">
+            <h3>Spaghetti Bolognese</h3>
+            <div class="price">Rs 300<span>Rs 400</span></div>
+            <a href="#"class="btn">add to cart</a>
+       </div>  
+       
+        <div class="box">
+            <img src="./img/french toast.jpg"alt="">
+            <h3>French Toast</h3>
+            <div class="price">Rs 250<span>Rs 350</span></div>
+            <a href="#"class="btn">add to cart</a>
+       </div>     
+    </div>
+</div>
+</section>
+<!----menu section ends----->
+
+
+<!---review sectin--->
+<section class="review" id="review">
+    <h1 class="heading">Customer's<span> review</span></h1>
+     
+    <div class="box-container">
+        
+        <div class="box">
+            <img src="" alt="" class="quote" height="5">
+            <p>"your website does a good job reflecting the warmth and quality of your coffee shop. 
+                I’d definitely visit your shop based on the positive vibe your website gives!"
+            </p>
+            <img src="./img/man1.png"class="user" alt="" width="200">
+            <h3>Sahil deo</h3>
+             <div class="stars">
+                <i class="fas fa-star"><img src="./css/png/512/ios7-star.png" alt="" width="50" style="background-color: aliceblue;"></i>
+                <i class="fas fa-star"><img src="./css/png/512/ios7-star.png" alt="" width="50" style="background-color: aliceblue;"></i>
+                <i class="fas fa-star"><img src="./css/png/512/ios7-star.png" alt="" width="50"style="background-color: aliceblue;"></i>
+                <i class="fas fa-star"><img src="./css/png/512/ios7-star.png" alt="" width="50"style="background-color: aliceblue;"></i>
+                <i class="fas fa-star-half-alt"><img src="./css/png/512/ios7-star-half.png" alt="" width="50"style=" background-color: aliceblue;"></i>
+            </div> 
+        </div>
+
+        <div class="box">
+            <img src="" alt="" class="quote">
+            <p>The design is clean, inviting, and matches the cozy atmosphere I expect from a great coffee shop. The high-quality photos of the coffee and pastries make everything look really appealing.</p>
+            <img src="./img/girl2.jpg"class="user" alt="">
+            <h3>RAsh</h3>
+            <div class="stars">
+                <i class="fas fa-star"><img src="./css/png/512/ios7-star.png" alt="" width="50" style="background-color: aliceblue;"></i>
+                <i class="fas fa-star"><img src="./css/png/512/ios7-star.png" alt="" width="50" style="background-color: aliceblue;"></i>
+                <i class="fas fa-star"><img src="./css/png/512/ios7-star.png" alt="" width="50" style="background-color: aliceblue;"></i>
+                <i class="fas fa-star"><img src="./css/png/512/ios7-star.png" alt="" width="50"style="background-color: aliceblue;"></i>
+                <i class="fas fa-star-half-alt"><img src="./css/png/512/ios7-star-half.png" alt="" width="50" style="background-color: aliceblue;"></i>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <img src="" alt="" class="quote">
+            <p>This place is amazing! They offered the best coffee and showed the best attitude to its costumers. Internet connection is very fast and is unlimited as well.</p>
+            <img src="./img/girl3.png"class="user" alt="">
+            <h3>Anjel</h3>
+            <div class="stars">
+                <i class="fas fa-star"><img src="./css/png/512/ios7-star.png" alt="" width="50" style="background-color: aliceblue;"></i>
+                <i class="fas fa-star"><img src="./css/png/512/ios7-star.png" alt="" width="50" style="background-color: aliceblue;"></i>
+                <i class="fas fa-star"><img src="./css/png/512/ios7-star.png" alt="" width="50" style="background-color: aliceblue;"></i>
+                <i class="fas fa-star"><img src="./css/png/512/ios7-star.png" alt="" width="50" style="background-color: aliceblue;"></i>
+                <i class="fas fa-star-half-alt"><img src="./css/png/512/ios7-star-half.png" alt="" width="50" style="background-color: aliceblue;"></i>
+            </div>
+        </div>
+    
+
+        <div class="box">
+            <img src="" alt="" class="quote">
+            <p>I would probably say that this coffee shop is a must for coffee lovers! The service was good, and the variety of coffee served in the ambiance was very satisfying. If you like your coffee shops, then this is a must-visit! We will be back again!
+            </p>
+            <img src="./img/man2.png"class="user" alt="">
+            <h3>raj</h3>
+            <div class="stars">
+                <i class="fas fa-star"><img src="./css/png/512/ios7-star.png" alt="" width="50" style="background-color: aliceblue;"></i>
+                <i class="fas fa-star"><img src="./css/png/512/ios7-star.png" alt="" width="50" style="background-color: aliceblue;"></i>
+                <i class="fas fa-star"><img src="./css/png/512/ios7-star.png" alt="" width="50" style="background-color: aliceblue;"></i>
+                <i class="fas fa-star"><img src="./css/png/512/ios7-star.png" alt="" width="50" style="background-color: aliceblue;"></i>
+                <i class="fas fa-star-half-alt"><img src="./css/png/512/ios7-star-half.png" alt="" width="50" style="background-color: aliceblue;"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end review section-->
+
+<!--contact section-->
+<section class="contact" id="contact">
+    <h1 class="heading"><span>contact</span> us</h1>
+
+    <div class="row">
+<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.5664438095228!2d74.84019297471892!3d12.871255687434948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba35a4e858a8517%3A0xcfa2fb1fe25e0164!2sCity%20Centre%20Mall!5e0!3m2!1sen!2sin!4v1739117870719!5m2!1sen!2sin" width="700" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+        <form class="form" action="">
+            <h3>get in touch</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"><img src="./css/png/512/android-social-user.png" alt="" width="90" style="background-color: wheat;"></span>
+                <input type="text"placeholder="name">
+            </div>
+
+            <div class="inputBox">
+                <span class="fas fa-envelope"><img src="./css/mail.png" alt="" width="90" height="100" style="background-color: wheat;"></span>
+                <input type="email"placeholder="email">
+            </div>
+
+            <div class="inputBox">
+                <span class="fas fa-phone"><img src="./css/png/512/android-call.png" alt="" width="100" style="background-color: wheat;"></span>
+                <input type="number"placeholder="number">
+            </div>
+            <button type="submit" class="btn">submit</button>
+            <p class="link"><img src="./css/png/512/email.png" alt="" width="52"><a href="mailto:rashp135@gmail.com">signatureSip@gmail.com</a>
+
+        </form>
+    </div>
+</section>
+<!---end contact section-->
+
+ <section class="footer">
+    <div class="share">
+        <a href="" class="facebook" ><img src="./css/png/512/social-facebook-outline.png" alt="" width="30" style="background-color: aliceblue; border-radius: 4px;"></a>
+        <a href="#" class="instagram"><img src="./css/png/512/social-instagram-outline.png" alt="" width="30" style="background-color: aliceblue; border-radius: 4px;"></a>
+        <a href="#" class="twitter(X)"><img src="./css/png/512/social-twitter-outline.png" alt="" width="30" style="background-color: aliceblue; border-radius: 4px;"></a>
+        <a href="#" class="linkedIn"><img src="./css/png/512/social-linkedin-outline.png" alt="" width="30" style="background-color: aliceblue; border-radius: 4px;"></a>
+        <a href="#" class="pinterest1"><img src="./css/png/512/social-pinterest-outline.png" alt="" width="30" style="background-color: aliceblue; border-radius: 4px;"></a>
+    </div>
+    <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div class="credits">designed by <span>ANJERASH </span>| All Rights Reserved</div>
+ </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js\script.js"></script>
+</body>
+</html>

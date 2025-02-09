@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Coffee Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Welcome back <span id="customer-name"></span>!</h1>
+        <p>Enjoy your personalized coffee experience.</p>
+        <div class="btn"><button class="logout" onclick="logout()">LOG-OUT</button></div>
+    </header>
+
+    <nav class="nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="./history.html">Order History</a></li>
+            <li><a href="/premium/premium.html">Exclusive Offers</a></li>
+            <li><a href="/profile/profile.html">Profile</a></li>
+        </ul>
+    </nav>
+
+    <main class="content">
+        <section class="loyalty">
+            <h2>Loyalty Program</h2>
+            <p>You have <strong id="points">45 points</strong> – Earn 5 more points for a free latte!</p>
+        </section>
+
+        <section class="quick-order">
+            <h2>Quick Order</h2>
+            <button id="reorder-btn" onclick="Func()">Reorder Favorite</button>
+        </section>
+
+        <section class="recommendations">
+            <h2>Recommended for You</h2>
+            <div class="recommendation-list">
+                <div class="item">
+                    <img src="./img/1_1Mu_zZxaOJV8MrmYj-g10Q.jpg" alt="" width="100">
+                    <h3>Cappuccino</h3>
+                    <p>Special deal: 10% off today!</p>
+                    <button>Order Now</button>
+                </div>
+                <div class="item">
+                    <img src="./img/photo-1714030161921-ac3459435db3.jpg" alt="" width="100">
+                    <h3>Mocha</h3>
+                    <p>Perfect for chocolate lovers!</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="events">
+            <h2>Upcoming Events</h2>
+            <p>Join our <strong>Barista Masterclass</strong> – Exclusive to premium members!</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Premium Coffee Shop. <a href=”#”>Contact Us</a></p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

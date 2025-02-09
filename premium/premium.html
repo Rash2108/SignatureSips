@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="prem.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Exclusive Offers <span id="customer-name"></span>!</h1>
+        <p>Enjoy your personalized coffee experience.</p>
+        <div class="btn"><button class="logout" onclick="logout()">LOG-OUT</button></div>
+
+    </header>
+
+    <nav class="nav">
+        <ul>
+            <li><a href="/re.html">Home</a></li>
+            <li><a href="/history.html">Order History</a></li>
+            <li><a href="#">Exclusive Offers</a></li>
+            <li><a href="/profile/profile.html">Profile</a></li>
+        </ul>
+    </nav>
+
+
+    <section class="exclusive-offers">
+        
+    
+        <!-- Carousel Container -->
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-slide">
+                    <img src="/img/carousel1.jpg" alt="Offer 1" width="500">
+                    <img src="/img/1_1Mu_zZxaOJV8MrmYj-g10Q.jpg" alt="Offer 2">
+                    <img src="/img/coffee-cup-at-restaurant-harigarh-udiapur.jpg" alt="Offer 3">
+                    <img src="/img/carousel2.jpg" alt="Offer 4" width="100%">
+                    <img src="/img/jonathan-pielmayer-RK8fagqbZ8g-unsplash.jpg" alt="Offer 5">
+                </div>
+            </div>
+            
+            <!-- Carousel Navigation Buttons -->
+            <button class="carousel-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="carousel-btn next" onclick="moveSlide(1)">&#10095;</button>
+    
+            <!-- Preview Thumbnails -->
+            <div class="carousel-preview">
+                <img src="/img/carousel1.jpg" onclick="showSlide(0)" alt="Offer 1 Preview">
+                <img src="/img/1_1Mu_zZxaOJV8MrmYj-g10Q.jpg" onclick="showSlide(1)" alt="Offer 2 Preview">
+                <img src="/img/coffee-cup-at-restaurant-harigarh-udiapur.jpg" onclick="showSlide(2)" alt="Offer 3 Preview">
+                <img src="/img/carousel2.jpg" onclick="showSlide(3)" alt="Offer 4 Preview">
+                <img src="/img/jonathan-pielmayer-RK8fagqbZ8g-unsplash.jpg" onclick="showSlide(4)" alt="Offer 5 Preview">
+            </div>
+        </div>
+
+    
+    
+        <!-- Offers List -->
+        <div class="offer-list">
+            <div class="offer-card">
+                <div class="offer-content">
+                    <h3>50% Off on Your First Order</h3>
+                    <p>Enjoy half-off on your first coffee purchase with us. Limited time only!</p>
+                    <button class="claim-offer">Claim Offer</button>
+                </div>
+            </div>
+            <div class="offer-card">
+                <div class="offer-content">
+                    <h3>Free Pastry with Any Large Coffee</h3>
+                    <p>Indulge in a complimentary pastry when you purchase any large coffee.</p>
+                    <button class="claim-offer">Claim Offer</button>
+                </div>
+            </div>
+            <div class="offer-card">
+                <div class="offer-content">
+                    <h3>10% Off for Premium Members</h3>
+                    <p>Our premium members enjoy an extra 10% off on every purchase!</p>
+                    <button class="claim-offer">Claim Offer</button>
+                </div>
+            </div>
+            <div class="offer-card">
+                <div class="offer-content">
+                    <h3>Buy 1 Get 1 Free Espresso</h3>
+                    <p>Order an espresso and get the second one on us!</p>
+                    <button class="claim-offer">Claim Offer</button>
+                </div>
+            </div>
+            <div class="offer-card">
+                <div class="offer-content">
+                    <h3>20% Off for Loyalty Members</h3>
+                    <p>Loyalty members get an additional 20% off on special days.</p>
+                    <button class="claim-offer">Claim Offer</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="prem.js"></script>
+</body>
+</html>

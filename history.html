@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="histStyle.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Order History<span id="customer-name"></span>!</h1>
+        <p>Enjoy your personalized coffee experience.</p>
+        <div class="btn"><button class="logout" onclick="logout()">LOG-OUT</button></div>
+
+    </header>
+
+    <nav class="nav">
+        <ul>
+            <li><a href="./re.html">Home</a></li>
+            <li><a href="#">Order History</a></li>
+            <li><a href="/premium/premium.html">Exclusive Offers</a></li>
+            <li><a href="/profile/profile.html">Profile</a></li>
+        </ul>
+    </nav>
+
+    <section class="order-history">
+        
+        <div class="order-list">
+            <div class="order-item">
+                <h3>Order #1234</h3>
+                <p>Date: September 10, 2024</p>
+                <p>Items: Cappuccino, Croissant</p>
+                <p>Total: RS 550</p>
+                <button class="reorder">Reorder</button>
+                <!-- <div class="order-image" style="background-image: url('./img/croissant.jpg');"></div> -->
+            </div>
+            <div class="order-item2">
+                <h3>Order #1235</h3>
+                <p>Date: October 5, 2024</p>
+                <p>Items: Latte, Muffin</p>
+                <p>Total: RS 300</p>
+                <button class="reorder">Reorder</button>
+            </div>
+            <div class="order-item3">
+                <h3>Order #1236</h3>
+                <p>Date: October 25, 2024</p>
+                <p>Items: Mocha, Bagel</p>
+                <p>Total: RS 250</p>
+                <button class="reorder">Reorder</button>
+            </div>
+        </div>
+    </section>
+    <script src="histScript.js"></script>
+</body>
+</html>

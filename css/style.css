@@ -10,7 +10,7 @@
 html{
      /*font-size: 62.5%;*/ 
     scroll-behavior: smooth;
-    transition-duration: 5s;
+    transition-duration: 3s;
     
 }
 
@@ -220,10 +220,12 @@ html{
     padding: 80px 100px 0;
     border-bottom: #1e0b04;
     
+    
 }
 
 .home .content{
-    max-width: 600px;
+    width: 100%;
+    max-width: 1200px;
     color: #fff;
     background: none;
     
@@ -797,7 +799,7 @@ flex: 1 1 45rem;
     .nav-icons #nav-btn{
         display: inline-block;
         left: 0;
-        margin-left: 200px;
+        /* margin-left: 150px; */
     }
     .nav-icons img{
         left: 0;
@@ -807,15 +809,17 @@ flex: 1 1 45rem;
         flex-direction: column;
         position:absolute;
         top: 100%;right: -100%;
-        background: wheat;
+        background: linear-gradient(to right, #341202b8,#71402ab5) ;
         /* background: 30rem; */
-        padding: 1rem;
-        width: 30rem;
+        padding: .5rem;
+        width: 20rem;
         height: calc(100vh - 9.5rem);
+        border-radius: 15px;
     }
 
     .header .nav.active{
         right: 0;
+        display: flex;
     }
 
 
@@ -826,7 +830,12 @@ flex: 1 1 45rem;
         font-size: 2rem;
         padding: .5rem;
     }
-
+    .content h2{
+        font-size: 2.5em;
+        width: 100%;
+        max-width:100%;
+        line-height: 1.7em;
+    }
     .contact .row .form {
         padding: 2rem 1rem;
     }
@@ -882,7 +891,12 @@ flex: 1 1 45rem;
     .nav a {
         font-size: 1.2rem;
     }
-   
+    .content h2{
+        font-size: 2.2em;
+        width: 100%;
+        max-width:100%;
+        line-height: 1.7em;
+    }
     .contact .row .form {
         padding: 2rem 1rem;
     }
